@@ -1,0 +1,31 @@
+vom creea 3 clase:
+    clasa pagina:
+        -textul de pe pagina
+        -un boolean care ne spune daca are imagini sau nu
+
+    clasa carte:
+        -titlul cartii
+        -tipul cartii
+        -limbile in care a fost publicata
+        -titlurile capitolelor
+        -anul publicarii
+        -pagini
+
+    clas autor:
+        -nume
+        -varsta
+        -gen
+        -cartile scrise
+
+1. creem clasele cu tot ce contin ele
+2. creem obiectele necesare pt exercitii (pagini carti si autorii)
+3. exercitii (metode care fac ceva)
+    3.1 autorul care are numele X din lista de autori;
+    3.2 cartile scrise de autorul A2, ce au fost publicate dupa anul 2000;
+    3.3 vrem sa returnam toate cuvintele de pe pagina n, dat ca parametru dintr-o anumita carte;
+    3.4 vrem sa returnam toate cartile scrise de un anumit autor care au mai mult de n pagini;
+    3.5 vrem sa returnam toate paginile scrise de un anumit autor
+    3.6 vrem sa returnam un array de booleane in care punem true/false in functie de:
+    -daca pagina din cartea respectiva contine stringul X si nu are imagini atunci punem true;
+    -in caz contrar false.
+
